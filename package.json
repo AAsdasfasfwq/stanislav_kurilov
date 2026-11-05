@@ -1,0 +1,17 @@
+{
+  "name": "alone-in-the-ocean",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentary motion-design film about Stanislav Kurilov, rendered in code (Canvas 2D / Three.js / WebGL / Web Audio).",
+  "license": "UNLICENSED",
+  "scripts": {
+    "preview": "node tools/serve.js",
+    "render": "node render.js",
+    "render:segment": "node render.js --segment",
+    "sheet": "node render.js --sheet"
+  },
+  "dependencies": {
+    "puppeteer": "^24.10.0"
+  },
+  "engines": { "node": ">=18" }
+}
